@@ -1,4 +1,15 @@
-.next/
+# Node
 node_modules/
-.env.local
+.next/
+
+# Python
+.venv/
+__pycache__/
+
+# Env files
 .env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
