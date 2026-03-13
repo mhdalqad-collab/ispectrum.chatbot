@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="header">
             <div className="brand">
               <Image
-                src="Public/ILogo.png"
+                src="frontend/public/ILogo.png"
                 alt="Intelligent Spectrum"
                 width={36}
                 height={36}
