@@ -1,8 +1,9 @@
 import "./globals.css";
+import Image from "next/image";
 
 export const metadata = {
-  title: "iSpectrum",
-  description: "Chat Assistant",
+  title: "Intelligent Spectrum",
+  description: "AI Chat Assistant by Intelligent Spectrum",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -12,15 +13,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="container">
           <header className="header">
             <div className="brand">
-              <span className="logo" />
-              <span>iSpectrum</span>
+              <Image
+                src="/Ilogo.png"
+                alt="Intelligent Spectrum"
+                width={36}
+                height={36}
+              />
+              <span>Intelligent Spectrum</span>
             </div>
           </header>
 
           <main className="main">{children}</main>
 
           <footer className="footer">
-            © {new Date().getFullYear()} iSpectrum
+            © {new Date().getFullYear()} Intelligent Spectrum
           </footer>
         </div>
       </body>
