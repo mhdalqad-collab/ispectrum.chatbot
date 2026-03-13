@@ -14,10 +14,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="header">
             <div className="brand">
               <Image
-                src="frontend/public/ILogo.png"
+                src="/ILogo.png"
                 alt="Intelligent Spectrum"
-                width={36}
-                height={36}
+                width={120}
+                height={40}
               />
               <span>Intelligent Spectrum</span>
             </div>
